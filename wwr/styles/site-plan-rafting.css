@@ -3,8 +3,8 @@
 :root {
 --primary-color: #219ebc;
 --secondary-color: #ffb703;
---Accent1-color: #8ecae6;
---Accent2-color: #fb8500;
+--accent1-color: #8ecae6;
+--accent2-color: #fb8500;
 
 --heading-font: Montserrat, serif;
 --paragraph-font: Tines Roman serif;
@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
     padding: 20px;
-    background-color: var(--Accent1-color);
+    background-color: var(--accent1-color);
 }
 
 p {
