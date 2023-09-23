@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans&display=swap')
 
 :root {
---primary-color: #219ebc;
---secondary-color: #ffb703;
---accent1-color: #8ecae6;
---accent2-color: #fb8500;
+--primary-color: 8ECAE6;
+--secondary-color: FFB703;
+--accent1-color: 219EBC;
+--accent2-color: FB8500;
 
---heading-font: Montserrat, serif;
---paragraph-font: Tines Roman serif;
+--heading-font: 'Montserrat', serif;
+--paragraph-font: 'Times Roman', serif;
 
---nav-backrground-color: #219ebc;
---nav-link-color: #ffb703;
---nav-hover-link-color: #8ecae6;
---nav-hover-backrground-color: #fb8500;
+--nav-backrground-color: 8ECAE6;
+--nav-link-color: FFB703;
+--nav-hover-link-color: 219EBC;
+--nav-hover-backrground-color: FB8500;
 }
 
 body {
