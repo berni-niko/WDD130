@@ -15,12 +15,11 @@
     --nav-hover-backrground-color: #FB8500;
     }
 
-/* * {
+* {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-    
-    } */
+        }
 
 body {
         font-family: var(--paragraph-font);
@@ -37,7 +36,7 @@ nav {
         background-color: var(--nav-backrground-color);
         font-size: 1.2rem;
         display: flex;
-        position: center;
+        position: relative;
     }
 
 h1 {
