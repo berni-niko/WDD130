@@ -15,7 +15,54 @@
     --nav-hover-backrground-color: #FB8500;
     }
 
-.hero   {
+/* * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    
+    } */
+
+body {
+        font-family: var(--paragraph-font);
+        max-width: 960px;
+        padding: 20px;
+    }
+
+header {
+        padding: 20px;
+        /* background-color: var(--accent1-color); */
+    }
+
+nav {
+        background-color: var(--nav-backrground-color);
+        font-size: 1.2rem;
+        display: flex;
+        position: center;
+    }
+
+h1 {
+    position: absolute;
+    color: whitesmoke;
+}
+
+h2 {
+    position: inherit;
+    color: orange;
+}
+
+p {
+    padding: 25px;
+    color: black;
+    position: relative;
+}
+
+.sociallinks a   {
+    text-decoration: none;
+
+}
+
+
+.hero img  {
     display: block;
     width: 100%;
     height: auto;
