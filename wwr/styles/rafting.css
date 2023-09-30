@@ -33,11 +33,11 @@ header {
     }
 
 nav {
-    background-color: var(--nav-backrground-color);
-    font-size: 1.2rem;
-    display: flex;
-    position: relative;
-}
+        background-color: var(--nav-backrground-color);
+        font-size: 1.2rem;
+        display: flex;
+        position: relative;
+    }
 
 h2 {
     position: inherit;
@@ -52,23 +52,26 @@ p {
 
 .sociallinks a   {
     text-decoration: none;
+
 }
+
+
+.hero img  {
+    display: block;
+    width: 100%;
+    height: auto;
+    float: right;
+    position: relative;
+  }
 
 div {
     position: relative;
 }
 
   h1 {
-    position: abolute;
-    color: black;
+    position: absolute;
+    float: right;
+    color: whitesmoke;
 }
 
-
-.hero img  {
-    display: block;
-    width: 15%;
-    height: auto;
-    float: right;
-    opacity: 0.5;
-  }
 
