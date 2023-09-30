@@ -17,6 +17,12 @@
     --nav-hover-backrground-color: #FB8500;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 nav {
     margin: 20px 20px;
     padding: 20px 20px;
@@ -32,21 +38,21 @@ nav img {
 .hero img {
     display: block;
     padding: 0px 0px 50px 50px;
-    width: 75%;
+    width: 50%;
     height: auto;
     position: relative;
 }
 
 h1 {
     background-color: lightblue;
-    width: 71.9%;
-    margin: 0px 50px;
+    width: 50%;
+    margin: 0px 15%;
     padding: 20px 20px;
     font-size: 250%;
     text-align: center;
     color: whitesmoke;
     position: absolute;
-    bottom: 400px;
+    bottom: 900px;
 }
 
 article :first-child {
@@ -56,7 +62,7 @@ article :first-child {
     height: auto;
     float: right;
     top: 460px;
-    left: 950px;
+    left: 1500px;
     position: absolute;
     clear: both;
     
@@ -68,7 +74,7 @@ article :last-child {
     margin: 20px 50px;
     padding: 20px 20px;
     width: 71%;
-    height: 10%;
+    height: auto;
     text-align: start;
     background-color: #219EBC;
     opacity: 0.5;
@@ -76,5 +82,12 @@ article :last-child {
     bottom: 750px;
     
      
+}
+
+.sociallinks img {
+    width: 5%;
+    height: auto;
+    margin: 0px 50px;
+    padding: 20px 20px;
 }
 
