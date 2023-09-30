@@ -56,22 +56,19 @@ p {
 }
 
 
-.hero img  {
-    display: block;
-    width: 100%;
-    height: auto;
-    float: right;
-    position: relative;
-  }
-
 div {
     position: relative;
 }
 
   h1 {
     position: absolute;
-    float: right;
     color: whitesmoke;
 }
 
+.hero img  {
+    display: block;
+    width: 100%;
+    height: auto;
+    float: right;
+    position: relative;
 
