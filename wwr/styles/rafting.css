@@ -29,27 +29,20 @@ body {
 
 header {
         padding: 20px;
-        /* background-color: var(--accent1-color); */
+        color: black;
     }
 
 nav {
-        background-color: var(--nav-backrground-color);
-        font-size: 1.2rem;
-        display: flex;
-        position: relative;
-    }
-
-h1 {
-    position: absolute;
-    color: whitesmoke;
+    background-color: var(--nav-backrground-color);
+    font-size: 1.2rem;
+    display: flex;
+    position: relative;
 }
 
 h2 {
     position: inherit;
     color: orange;
 }
-
-
 
 p {
     padding: 25px;
@@ -59,12 +52,23 @@ p {
 
 .sociallinks a   {
     text-decoration: none;
+}
 
+div {
+    position: relative;
+}
+
+  h1 {
+    position: abolute;
+    color: black;
 }
 
 
 .hero img  {
     display: block;
-    width: 100%;
+    width: 15%;
     height: auto;
-}
+    float: right;
+    opacity: 0.5;
+  }
+
