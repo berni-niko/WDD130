@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans&display=swap');
 
+
+
 :root {
     --primary-color: #8ECAE6;
     --secondary-color: #FFB703;
@@ -13,62 +15,66 @@
     --nav-link-color: #FFB703;
     --nav-hover-link-color: #219EBC;
     --nav-hover-backrground-color: #FB8500;
-    }
-
-* {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        }
-
-body {
-        font-family: var(--paragraph-font);
-        max-width: 960px;
-        padding: 20px;
-    }
-
-header {
-        padding: 20px;
-        color: black;
-    }
+}
 
 nav {
-        background-color: var(--nav-backrground-color);
-        font-size: 1.2rem;
-        display: flex;
-        position: relative;
-    }
-
-h2 {
-    position: inherit;
-    color: orange;
+    margin: 20px 20px;
+    padding: 20px 20px;
 }
 
-p {
-    padding: 25px;
-    color: black;
-    position: relative;
+nav img {
+    padding: 50px 50px;
+    width: 15%;
+    height: auto;
+    float: left;
 }
 
-.sociallinks a   {
-    text-decoration: none;
-
-}
-
-
-div {
-    position: relative;
-}
-
-  h1 {
-    position: absolute;
-    color: whitesmoke;
-}
-
-.hero img  {
+.hero img {
     display: block;
+    padding: 0px 0px 50px 50px;
+    width: 75%;
+    height: auto;
+    position: relative;
+}
+
+h1 {
+    background-color: lightblue;
+    width: 71.9%;
+    margin: 0px 50px;
+    padding: 20px 20px;
+    font-size: 250%;
+    text-align: center;
+    color: whitesmoke;
+    position: absolute;
+    bottom: 400px;
+}
+
+article :first-child {
+    margin: 20px 20px;
+    padding: 20px 20px;
     width: 15%;
     height: auto;
     float: right;
-    position: relative;
+    top: 460px;
+    left: 950px;
+    position: absolute;
+    clear: both;
+    
 }
+
+article :last-child {
+    color: whitesmoke;
+    font-weight: bold;
+    margin: 20px 50px;
+    padding: 20px 20px;
+    width: 71%;
+    height: 10%;
+    text-align: start;
+    background-color: #219EBC;
+    opacity: 0.5;
+    position: relative;
+    bottom: 750px;
+    
+     
+}
+
