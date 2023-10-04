@@ -9,23 +9,40 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
 nav{
     background-color: lightblue;
     padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 nav a {
-    color: black;
     display: block;
-    padding: 20px;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: black;
 }
 
 h1 {
     margin: 1rem;
     color: navy;
+    border-bottom: solid lightseagreen;
+}
+
+main {
+    grid-column: 2 / 3;
+    margin: 1rem;
 }
 main img {
-    width: 150px;
-    height: auto;
+    /* width: 150px;
+    height: auto; */
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
@@ -33,20 +50,21 @@ main img {
     margin: 0 0 1rem 1rem;
 }
 
-
 p {
     margin: 1rem;
     padding: 10px;
 }
 aside {
     width: 20em;
-    margin: 1em;
+    /* margin: 1em; */
     border: 1px solid rgba(214, 26, 26, 0.2);
     padding: 1em;
     background-color: #eee;
     color: #333;
     text-align: center;
     position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
 h2 {
@@ -54,8 +72,8 @@ h2 {
 }
 
 aside img {
-    width: 200px;
-    height: auto;
+    width: 288px;
+    height: 270px;
     
 }
 
@@ -63,12 +81,6 @@ aside h2 {
     position: absolute;
     top: 15px;
     left: 90px;
-}
-
-footer {
-    margin-top: 1em;
-    border-top: 1px solid #000;
-    text-align: center;
 }
 
 /* Class Selector */
@@ -84,3 +96,7 @@ footer {
     padding-left: 2rem;
 }
 
+.grid {
+    display: grid;
+    align-items: center;
+}
