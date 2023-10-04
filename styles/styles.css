@@ -84,13 +84,13 @@ aside h2 {
 }
 
 /* Class Selector */
-/* .box {
+.box {
     margin: 1rem;
     border: solid rgba(0, 0, 0, 0.1);
     padding: 1rem;
     background-color: lightyellow;
     color: #000;
-} */
+}
 
 .indent {
     padding-left: 2rem;
