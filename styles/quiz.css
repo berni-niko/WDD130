@@ -1,67 +1,75 @@
-@import url('https://fonts.googleapos.com/css2?family=Merriweather&family=Robotto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap');
+
+:root {
+  --button-color: #4caf50;
+  --button-hover-color: #45a049;
+}
 
 body {
-    font-family: Merriweather, Georgia, serif;
+  font-family: 'Merriweather', Georgia, serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header,
+form {
+  max-width: 650px;
+  margin: 0 auto;
 }
 
 header {
-    margin: 0 auto;
-    width: 650px;
+  padding: 20px 0;
 }
 
 h1 {
   text-align: center;
   margin-bottom: 20px;
-  color: #333;
 }
 
 form {
-  max-width: 500px;
-  margin: 0 auto;
   padding: 20px;
   background-color: #f2f2f2;
   border-radius: 5px;
 }
 
-
-
 label {
   display: block;
   font-weight: bold;
-  margin: 10px;
-
+  margin-bottom: 10px;
 }
-
 
 input,
 select,
 textarea {
-  width: 90%;
+  width: 100%;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
 }
 
 textarea {
-  height: 100px;  
+  height: 100px;
 }
 
-
 button {
-  background-color: #4caf50;
+  background-color: var(--button-color);
   color: white;
   padding: 10px 20px;
-  margin: 10px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
+  transition: background-color 0.3s;
 }
 
 button:hover {
-  background-color: #45a049;
+  background-color: var(--button-hover-color);
 }
 
 footer {
-    text-align: center;
+  text-align: center;
+  padding: 20px 0;
 }
